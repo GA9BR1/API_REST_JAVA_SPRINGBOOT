@@ -1,4 +1,5 @@
 FROM openjdk:19
 ADD ./docker-spring-boot.jar docker-spring-boot.jar
-EXPOSE 3030
+ENV PORT = 0.0.0.0:$PORT
+EXPOSE PORT
 ENTRYPOINT ["java", "-jar", "docker-spring-boot.jar"]
