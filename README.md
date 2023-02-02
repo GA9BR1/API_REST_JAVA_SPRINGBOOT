@@ -9,4 +9,5 @@ A aplicação usa um Banco de Dados MySql na nuvem através do site https://app.
 A api é documentada através do OpenAPi, Swagger
 
 Deploy https://apirestjavaspringboot-production.up.railway.app/
+
 A documentação pode ser acessada pelo link: https://apirestjavaspringboot-production.up.railway.app/swagger-ui/index.html
